@@ -1,0 +1,53 @@
+{
+  "name": "vue-godfather",
+  "version": "0.0.0-development",
+  "description": "Vue directive wrapper for godfatherjs",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"no test specified\"",
+    "build": "webpack --config webpack.prod.js",
+    "dev": "webpack --config webpack.dev.js",
+    "travis-deploy-once": "travis-deploy-once",
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crsten/vue-godfather.git"
+  },
+  "keywords": [
+    "vue",
+    "directive",
+    "godfatherjs"
+  ],
+  "author": "car.jacobsen@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/crsten/vue-godfather/issues"
+  },
+  "homepage": "https://github.com/crsten/vue-godfather#readme",
+  "dependencies": {
+    "godfather": "^1.4.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.0.0-rc.1",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "css-loader": "^1.0.0",
+    "cz-conventional-changelog": "^2.1.0",
+    "mini-css-extract-plugin": "^0.4.1",
+    "node-sass": "^4.9.3",
+    "optimize-css-assets-webpack-plugin": "^5.0.0",
+    "sass-loader": "^7.1.0",
+    "semantic-release": "^15.9.9",
+    "style-loader": "^0.22.1",
+    "travis-deploy-once": "^5.0.2",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-merge": "^4.1.4"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
